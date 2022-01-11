@@ -1,7 +1,7 @@
 # [基础语法和时光穿梭机](./basic_grammer.md)
 1. [reflog](#1)
 2. [工作区和暂存区](#2)
-3. [](#3)
+3. [两种撤销](#3)
 4. [](#4)  
 
 ## 基础命令
@@ -16,6 +16,8 @@ git log                       //可以查看提交历史，以便确定要回退
 git reflog                    //记录我的每一次命令（查看版本号）
 git reset --hard HEAD^        //回滚到上一个版本
 git reset --hard commit_id    //回滚到指定版本，commit_id是可以通过git log查看（没必要写全）
+git checkout -- <file>        //把<文件>在工作区的修改全部撤销
+git reset HEAD <file>         //将暂存区的修改撤销掉（unstage）,重新放回工作区
 ```
 ## 1 
 _版本回滚_  
@@ -35,6 +37,11 @@ commit**就是把暂存区的所有内容提交到当前分支**
 ```cpp
 ```  
 ## 3
+_两种撤销_  
+- 未add```git checkout -- <file>```  
+  - 修改了未add存缓存(stage)
+  - 已存缓存(stage)再次修改但未add
+- 已add```git reset HEAD <file> ```  
 ```cpp
 ```  
 ## 4
