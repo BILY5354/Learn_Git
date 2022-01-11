@@ -16,3 +16,35 @@ ls -ah        //看隐藏文件
 - [](./remote_repository.md#2)
 - [](./remote_repository.md#3)
 - [](./remote_repository.md#4)  
+### 快速构建
+```
+//主页
+## [远程仓库](./remote_repository.md)
+- [](./remote_repository.md#1)
+- [](./remote_repository.md#2)
+- [](./remote_repository.md#3)
+- [](./remote_repository.md#4)  
+
+//子页
+# [远程仓库](./remote_repository.md)
+1. [reflog](#1)
+2. [](#2)
+3. [](#3)
+4. [](#4)  
+## 1
+```cpp
+```  
+## 2
+```cpp
+```  
+## 3
+```cpp
+```  
+## 4
+```cpp
+```  
+
+//图片 相对地址
+![](img/reflog2.PNG "")
+
+```
