@@ -16,7 +16,7 @@ git log                       //可以查看提交历史，以便确定要回退
 git reflog                    //记录我的每一次命令（查看版本号）
 git reset --hard HEAD^        //回滚到上一个版本
 git reset --hard commit_id    //回滚到指定版本，commit_id是可以通过git log查看（没必要写全）
-git checkout -- <file>        //把<文件>在工作区的修改全部撤销
+git checkout -- <file>        //把<文件>在工作区的修改全部撤销(2)恢复一个手动删除但已添加到版本库的文件
 git reset HEAD <file>         //将暂存区的修改撤销掉（unstage）,重新放回工作区
 ```
 ## 1 
@@ -46,6 +46,10 @@ _两种撤销_
 ```cpp
 ```  
 ## 4  
-_删除文件_
+_删除文件_  
+- 手动删除是```rm <file>```
+  - 如果是不小心用```git checkout -- <file>```**恢复**。
+  - 如果确实想删除，就```git rm <file>```再commit。**所以想删除直接git rm好了**就不用rm再git rm了。
+- git删除是```git rm <file>```，这样删除的文件是不可能通过checkout恢复的，**想要恢复只能回滚**。
 ```cpp
 ```  
