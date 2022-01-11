@@ -18,7 +18,7 @@ git reset --hard HEAD^        //回滚到上一个版本
 git reset --hard commit_id    //回滚到指定版本，commit_id是可以通过git log查看（没必要写全）
 ```
 ## 1 
-_版本回滚__  
+_版本回滚_  
 **reflog**用来记录你的每一次命令,图一执行命令```git commit readme.txt -m "10_58_in_1_11"```提交一次新文件后变化如下。可以看到**最近提交的数字是最小的，为0**。  
 替换前  
 ![](img/reflog1.PNG "图一")  
