@@ -9,8 +9,8 @@
 git init                      //初始化Git仓库
 git add <file>                //添加文件
 git commit -m <message>       //提交文件
-git status                    //随时掌握工作区的状态
-git diff                      //要随时掌握工作区的状态
+git status                    //了解工作区的状态
+git diff                      //查看修改内容（有什么不同）
 git reset --hard commit_id    //commit_id是可以通过git log查看
 git log --pretty=oneline      //使log的用一行显示
 git log                       //可以查看提交历史，以便确定要回退到哪个版本
