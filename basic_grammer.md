@@ -4,10 +4,10 @@
 - [](#3)
 - [](#4)  
 ## 1
-替换前
-![](reflog1.PNG)
-替换后
-![](./img/reflog2)
+替换前  
+![](img/reflog1.PNG)  
+替换后  
+![](img/reflog2.PNG)  
 ```cpp
 ```  
 ## 2
