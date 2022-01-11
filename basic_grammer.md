@@ -6,7 +6,15 @@
 
 ## 基础命令
 ```git
-git reflog  //用来记录你的每一次命令
+git init                      //初始化Git仓库
+git add <file>                //添加文件
+git commit -m <message>       //提交文件
+git status                    //随时掌握工作区的状态
+git diff                      //要随时掌握工作区的状态
+git reset --hard commit_id    //commit_id是可以通过git log查看
+git log --pretty=oneline      //使log的用一行显示
+git log                       //可以查看提交历史，以便确定要回退到哪个版本
+git reflog                    //用来记录你的每一次命令
 ```
 ## 1 
 **reflog**用来记录你的每一次命令,图一执行命令```git commit readme.txt -m "10_58_in_1_11"```提交一次新文件后变化如下。可以看到**最近提交的数字是最小的，为0**。  
