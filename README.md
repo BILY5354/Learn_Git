@@ -11,3 +11,8 @@ ls -ah        //看隐藏文件
 - [两种撤销](./basic_grammer.md#3)
 - [删除文件](./basic_grammer.md#4) 
 
+## [远程仓库](./remote_repository.md)
+- [](./remote_repository.md#1)
+- [](./remote_repository.md#2)
+- [](./remote_repository.md#3)
+- [](./remote_repository.md#4)  
