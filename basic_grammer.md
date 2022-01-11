@@ -38,10 +38,11 @@ commit**就是把暂存区的所有内容提交到当前分支**
 ```  
 ## 3
 _两种撤销_  
-- 未add```git checkout -- <file>```  
+- 未add，使用```git checkout -- <file>```  
   - 修改了未add存缓存(stage)
   - 已存缓存(stage)再次修改但未add
-- 已add```git reset HEAD <file> ```  
+- 已add，使用```git reset HEAD <file> ```。使用该命令会只会撤销存缓存的修改，这时候还需要撤销add的操作。  
+![](img/unstage.PNG "unstage")
 ```cpp
 ```  
 ## 4
