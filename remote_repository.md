@@ -6,9 +6,13 @@
 
 
 ```
-git remote -v               # 查看远程仓库的数量（简单信息）
-git remote show origin      # 查看某个远程仓库的具体信息，以origin为例：
-git branch                  # 查看分支信息
+git remote add origin git@server-name:path/repo-name.git              # 关联一个远程库,origin是默认习惯命名
+git push -u origin master                                             # 第一次推送master分支的所有内容
+git push origin master                                                # 第一次提交后，就可以使用本命令推送最新修改
+git clone git@github.com:BILY5354/hello-world.git                     # 远程库已经准备好后克隆一个本地库
+git remote -v                                                         # 查看远程仓库的数量（简单信息）
+git remote show origin                                                # 查看某个远程仓库的具体信息，以origin为例：
+git branch                                                            # 查看分支信息
 ```
 ## 1
 _远仓基本设置_
