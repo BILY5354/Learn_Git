@@ -13,7 +13,7 @@ ls -ah        //看隐藏文件
 
 ## [远程仓库](./remote_repository.md)
 - [远仓基本设置](./remote_repository.md#1)
-- [添加远程仓库](./remote_repository.md#2)
+- [推送本仓到远仓](./remote_repository.md#2)
 - [从远程仓库克隆](./remote_repository.md#3)
-- [](./remote_repository.md#4)  
+- [从远仓更新本仓](./remote_repository.md#4)  
 
