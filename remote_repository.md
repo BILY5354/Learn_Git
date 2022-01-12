@@ -37,7 +37,7 @@ _添加远程仓库_
   
 ## 3
 _从远程仓库克隆_  
-- 克隆远仓(注意branch的变化)  
+- 使用```git clone git@github.com:BILY5354/hello-world.git```克隆远仓(注意branch的变化) 。 
 ![](img/clone_repo1.PNG "克隆远仓")  
 当然也可以使用```git branch```查看。
 - 远仓的**branch**别写错了，我现在的远仓**branch**是```main```但我写了```master```。
