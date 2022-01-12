@@ -6,7 +6,7 @@
 # 本节命令
 ```
 git remote add origin git@server-name:path/repo-name.git              # 关联一个远程库,origin是默认习惯命名
-git push -u origin master                                             # 第一次推送master分支的所有内容
+git push -u origin master                                             # 第一次推送master分支的所有内容，<origin>是远仓<master>是本仓
 git push origin master                                                # 第一次提交后，就可以使用本命令推送最新修改
 git clone git@github.com:BILY5354/hello-world.git                     # 远程库已经准备好后克隆一个本地库
 git remote rm <name>                                                  # 解除了本地和远程的绑定关系，并不是物理上删除了远程库
@@ -21,7 +21,7 @@ _远仓基本设置_
 ```  
 ## 2
 _推送本仓到远仓_，在本地新建了一个仓库想要推送到远程仓库的操作。  
-- 首先在github(gitee也行)上创建一个仓库，注意**这个仓库一定是空的，不要初始化**，也就是readme这些都是没有的。再本地用```git remote add origin git@server-name:path/repo-name.git```创建关联，再用```git push -u origin master```第一次推送**orgin是刚刚创建的关联master是远仓的分支名字**，以后再次推送就用```git push origin master```即可。
+- 首先在github(gitee也行)上创建一个仓库，注意**这个仓库一定是空的，不要初始化**，也就是readme这些都是没有的。再本地用```git remote add origin git@server-name:path/repo-name.git```创建关联，再用```git push -u origin master```第一次推送**orgin是刚刚创建的关联即远仓，而master是本仓**，以后再次推送就用```git push origin master```即可。
 - 如果想既推github和gitee就需要设置多个关联了。
 ```cpp
 ```
@@ -32,7 +32,7 @@ _推送本仓到远仓_，在本地新建了一个仓库想要推送到远程仓
 > - A remote name, for example, origin
 > - A branch name, for example, master
 > For example:  
-``` git push <REMOTENAME> <BRANCHNAME> ```也就是git push **本地仓库** **远程分支名字**   
+``` git push <REMOTENAME> <BRANCHNAME> ```也就是git push **远仓** **本仓**   
 > As an example, you usually run $ git push origin master to push your local changes to your online repository.  
   
 ## 3
