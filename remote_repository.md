@@ -4,6 +4,7 @@
 3. [从远程仓库克隆](#3)
 4. [](#4)  
 ```
+# 本节命令
 git remote add origin git@server-name:path/repo-name.git              # 关联一个远程库,origin是默认习惯命名
 git push -u origin master                                             # 第一次推送master分支的所有内容
 git push origin master                                                # 第一次提交后，就可以使用本命令推送最新修改
