@@ -13,7 +13,7 @@ ls -ah        //看隐藏文件
 
 ## [远程仓库](./remote_repository.md)
 - [远仓基本设置](./remote_repository.md#1)
-- [推送本仓到远仓](./remote_repository.md#2)
-- [从远程仓库克隆](./remote_repository.md#3)
-- [从远仓更新本仓](./remote_repository.md#4)  
+- [推送本仓到远仓](./remote_repository.md#2) *在本地新建了一个仓库想要推送到远程仓库的操作。*
+- [从远程仓库克隆](./remote_repository.md#3) *在远仓已有仓库，现在需将其克隆到本地的操作*
+- [从远仓更新本仓](./remote_repository.md#4) *已有远仓克隆在本地，现远仓更新了，想本仓更新的操作* 
 
