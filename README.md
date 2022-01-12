@@ -12,8 +12,8 @@ ls -ah        //看隐藏文件
 - [删除文件](./basic_grammer.md#4) 
 
 ## [远程仓库](./remote_repository.md)
-- [](./remote_repository.md#1)
-- [](./remote_repository.md#2)
-- [](./remote_repository.md#3)
+- [远仓基本设置](./remote_repository.md#1)
+- [添加远程仓库](./remote_repository.md#2)
+- [从远程仓库克隆](./remote_repository.md#3)
 - [](./remote_repository.md#4)  
 
