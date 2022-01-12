@@ -40,14 +40,14 @@ _推送本仓到远仓_，在本地新建了一个仓库想要推送到远程仓
   
 ## 3  
 _从远程仓库克隆_，在远仓已有仓库，现在需将其克隆到本地的操作。  
-- 使用```git clone git@github.com:BILY5354/hello-world.git```克隆远仓(注意branch的变化) 。 
+1. 使用```git clone git@github.com:BILY5354/hello-world.git```克隆远仓(注意branch的变化) 。 
 ![](img/clone_repo1.PNG "克隆远仓")  
 当然也可以使用```git branch```查看。
-- **本**仓的**branch**别写错了，现在的本仓**branch**是```main```但写了```master```。
+2. **本**仓的**branch**别写错了，现在的本仓**branch**是```main```但写了```master```。
 ![](img/clone_repo2.PNG "写错远仓分支") 
-- 远仓克隆下来想要推送**同样也需要创建关联**，否则错误提示：
+3. 远仓克隆下来想要推送**同样也需要创建关联**，否则错误提示：
 ![](img/clone_repo3.PNG "没有创建关联") 
-- 最终顺顺利利。  
+4. 最终顺顺利利。  
 ![](img/clone_repo4.PNG "") 
 ```cpp
 ```  
