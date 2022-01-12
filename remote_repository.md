@@ -1,8 +1,8 @@
 # [远程仓库](./remote_repository.md)
 1. [远仓基本设置](#1)
-2. [添加远程仓库](#2)
-3. [从远程仓库克隆](#3)
-4. [](#4)  
+2. [推送本仓到远仓](#2)
+3. [从远仓克隆到本地](#3)
+4. [从远仓更新本仓](#4)  
 # 本节命令
 ```
 git remote add origin git@server-name:path/repo-name.git              # 关联一个远程库,origin是默认习惯命名
@@ -20,7 +20,7 @@ _远仓基本设置_
 ```cpp
 ```  
 ## 2
-_添加远程仓库_  
+_推送本仓到远仓_  
 - 首先在github(gitee也行)上创建一个仓库，注意**这个仓库一定是空的，不要初始化**，也就是readme这些都是没有的。再本地用```git remote add origin git@server-name:path/repo-name.git```创建关联，再用```git push -u origin master```第一次推送**orgin是刚刚创建的关联master是远仓的分支名字**，以后再次推送就用```git push origin master```即可。
 - 如果想既推github和gitee就需要设置多个关联了。
 ```cpp
@@ -49,6 +49,6 @@ _从远程仓库克隆_
 ```cpp
 ```  
 ## 4
-__
+_从远仓更新本仓_
 ```cpp
 ```  
