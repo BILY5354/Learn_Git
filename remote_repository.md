@@ -41,7 +41,7 @@ _从远程仓库克隆_，在远仓已有仓库，现在需将其克隆到本地
 - 使用```git clone git@github.com:BILY5354/hello-world.git```克隆远仓(注意branch的变化) 。 
 ![](img/clone_repo1.PNG "克隆远仓")  
 当然也可以使用```git branch```查看。
-- 远仓的**branch**别写错了，我现在的远仓**branch**是```main```但我写了```master```。
+- **本**仓的**branch**别写错了，现在的本仓**branch**是```main```但写了```master```。
 ![](img/clone_repo2.PNG "写错远仓分支") 
 - 远仓克隆下来想要推送**同样也需要创建关联**，否则错误提示：
 ![](img/clone_repo3.PNG "没有创建关联") 
