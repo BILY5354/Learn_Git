@@ -61,6 +61,7 @@ _案例：从github更新本仓并推送到gitee_，**[确保github与gitee已�
 2. 使用```pull```拉取远仓更新本仓，可以看到修改的内容(新增了test.md，修改了两个文件)
 3. 本仓更新成功后推送到gitee远仓
 ![](img/pull_push.PNG "案例过程")  
+现在或许有疑问，为什么一定要在github上修改，在本地修改不行吗。这当然可以，修改后使用```git push github_learn_git main```就可以上传到github上了。**但不要再远仓改一下又在本仓改一下，太乱啦**。
 ```cpp
 ``` 
 
