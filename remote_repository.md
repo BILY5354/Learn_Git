@@ -31,10 +31,10 @@ _推送本仓到远仓_，在本地新建了一个仓库想要推送到远程仓
 > Form github:  
 > Use git push to push commits made on your local branch to a remote repository.  
 > The git push command takes two arguments:  
-- A remote name, for example, origin
-- A branch name, for example, master
-For example:    
- ```git push <REMOTENAME> <BRANCHNAME>```也就是git push **远仓** **本仓**。   
+> - A remote name, for example, origin
+> - A branch name, for example, master
+> For example:    
+> ```git push <REMOTENAME> <BRANCHNAME>```也就是git push **远仓** **本仓**。   
 > As an example, you usually run $ git push origin master to push your local changes to your online repository.
 
   
