@@ -18,6 +18,13 @@ git merge --no-ff -m "----" <name>					//用普通模式合并，使历史有分
 git branch -d <name>								//删除分支
 git log --graph										//----写信息，查看分支合并图
 git log --graph --pretty=oneline --abbrev-commit	//查看分支合并图(一行显示)
+git status											//把当前工作现场“储藏”起来，等以后恢复现场后继续工作
+git stash list										//查看保存的工作现场
+git stash apply										//恢复工作现场(现只有一个工作现场情况，多个需指定)
+git stash drop										//删除工作现场(现只有一个工作现场情况，多个需指定)
+git stash pop										//恢复工作现场同时将stash内容删除
+git stash apply stash@{0}							//恢复指定工作现场
+git cherry-pick <commit>							//把在一分支bug提交的修改“复制”到当前分支，避免重复劳动
 ```
 
 
