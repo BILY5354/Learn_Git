@@ -18,9 +18,9 @@ ls -ah        //看隐藏文件
 - [从远仓更新本仓](./remote_repository.md#4) *已有远仓克隆在本地，现远仓更新了，想本仓更新的操作*
 - [案例：从github更新本仓并推送到gitee](./remote_repository.md#5)  
 ## [分支管理](./branch_manage.md)
-- [](./branch_manage.md#1)
-- [](./branch_manage.md#2)
-- [](./branch_manage.md#3)
+- [基础分支操作](./branch_manage.md#1)
+- [不同的分支合并图](./branch_manage.md#2)
+- [案例：如何先处理Bug再回到开发分支](./branch_manage.md#3)
 - [](./branch_manage.md#4)    
 
 
