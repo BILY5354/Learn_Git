@@ -15,7 +15,7 @@ git remote rm <name>                                                  # 解除�
 git remote -v                                                         # 查看远程仓库的数量（简单信息）
 git remote show origin                                                # 查看某个远程仓库的具体信息，以origin为例：
 git branch                                                            # 查看分支信息
-```  
+```
 # 需要注意的地方  
 1. 成功```push```只会存在两种情况(现阶段)
     - 在远仓上新建了一个什么都没有的仓库，首次推送```push```上去以及后续的推送*第一次推和之后的推命令是不一样的*。  
@@ -26,7 +26,7 @@ git branch                                                            # 查看�
 _远仓基本设置_
 [直接回看教程](https://www.liaoxuefeng.com/wiki/896043488029600/896954117292416#0)，主要是添加公钥到github或gitee。
 ```cpp
-```  
+```
 ## 2
 _推送本仓到远仓_，在本地新建了一个仓库想要推送到远程仓库的操作。  
 - 首先在github(gitee也行)上创建一个仓库，注意**这个仓库一定是空的，不要初始化**，也就是readme这些都是没有的。再本地用```git remote add origin git@server-name:path/repo-name.git```创建关联，再用```git push -u origin master```第一次推送**orgin是刚刚创建的关联即远仓，而master是本仓**，以后再次推送就用```git push origin master```即可。
@@ -42,8 +42,10 @@ _推送本仓到远仓_，在本地新建了一个仓库想要推送到远程仓
 > For example:    
 > ```git push <REMOTENAME> <BRANCHNAME>```也就是git push **远仓** **本仓**。   
 > As an example, you usually run $ git push origin master to push your local changes to your online repository.  
-## 3  
+## 3
+
 _从远程仓库克隆_，在远仓已有仓库，现在需将其克隆到本地的操作。  
+
 1. 使用```git clone git@github.com:BILY5354/hello-world.git```克隆远仓(注意branch的变化) 。 
 ![](img/clone_repo1.PNG "克隆远仓")  
 当然也可以使用```git branch```查看。
@@ -54,11 +56,11 @@ _从远程仓库克隆_，在远仓已有仓库，现在需将其克隆到本地
 4. 最终顺顺利利。  
 ![](img/clone_repo4.PNG "") 
 ```cpp
-```  
+```
 ## 4
 _从远仓更新本仓_，已有远仓克隆在本地，现远仓更新了，想本仓更新的操作。  使用```git pull  <REMOTENAME> <BRANCHNAME>```,也就是git push **远仓** **本仓**。
 ```cpp
-```  
+```
 ## 5  
 _案例：从github更新本仓并推送到gitee_，**[确保github与gitee已经添加了SSH公钥](#1)**，**并且已经将远仓克隆到本地**，这个案例是如果远仓(github)修改了一些文件，则本地需要更新并推送到gitee远仓上。  
 1. 查看本地与github、gitee的关联，如没有则添加
@@ -67,5 +69,5 @@ _案例：从github更新本仓并推送到gitee_，**[确保github与gitee已�
 ![](img/pull_push.PNG "案例过程")  
 现在或许有疑问，为什么一定要在github上修改，在本地修改不行吗。这当然可以，修改后使用```git push github_learn_git main```就可以上传到github上了。**但不要再远仓改一下又在本仓改一下，太乱啦**。
 ```cpp
-``` 
+```
 
