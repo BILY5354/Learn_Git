@@ -23,6 +23,12 @@ ls -ah        //看隐藏文件
 - [案例：如何先处理Bug再回到开发分支](./branch_manage.md#3)
 - [](./branch_manage.md#4)    
 
+## [标签管理](./label_manage.md)
+- [](./label_manage.md#1)
+- [](./label_manage.md#2)
+- [](./label_manage.md#3)
+- [](./label_manage.md#4)  
+
 
 
 # 全部Git命令
