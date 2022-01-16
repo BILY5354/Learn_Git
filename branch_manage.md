@@ -16,6 +16,7 @@ git switch -c <name>								//(方1)创建+切换分支
 git merge <name>									//合并某分支到当前分支
 git merge --no-ff -m "----" <name>					//用普通模式合并，使历史有分支，能看出曾做过合并
 git branch -d <name>								//删除分支
+git branch -D <name>								//强行删除分支
 git log --graph										//----写信息，查看分支合并图
 git log --graph --pretty=oneline --abbrev-commit	//查看分支合并图(一行显示)
 git status											//把当前工作现场“储藏”起来，等以后恢复现场后继续工作
@@ -45,7 +46,9 @@ git cherry-pick <commit>							//把在一分支bug提交的修改“复制”�
 
 解决冲突的方式就是手动解决。
 
+### 强行删除分支
 
+有时候新开发一个分支老板说这个分支不喜欢不要了，那么此分支当然不可能会合并必须删除。但```git branch -d <name>```是无法删除的，这时候用```git branch -D <name>```即可，**这是强行删除**。
 
 ```
 ```
