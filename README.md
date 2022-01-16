@@ -21,7 +21,7 @@ ls -ah        //看隐藏文件
 - [基础分支操作](./branch_manage.md#1)
 - [不同的分支合并图](./branch_manage.md#2)
 - [案例：如何先处理Bug再回到开发分支](./branch_manage.md#3)
-- [](./branch_manage.md#4)    
+- [案例：和小伙伴一起弄项目](./branch_manage.md#4)  _github为例_    
 
 ## [标签管理](./label_manage.md)
 - [](./label_manage.md#1)
